@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Distribution / packaging
+*.manifest
+*.spec
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files — large raw data excluded from tracking
+# Remove the lines below if you want to track data files
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.xls
+data/raw/*.zip
+data/raw/*.gz
+
+# Results — figures and tables can be regenerated from notebooks
+# Comment these out if you want to track outputs
+results/figures/*.png
+results/figures/*.pdf
+results/tables/*.csv
+results/tables/*.xlsx
+
+# Environment files with credentials
+.env
+secrets.json
+twitter_credentials.json
+bearer_token.txt

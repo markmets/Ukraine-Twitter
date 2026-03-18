@@ -1,0 +1,28 @@
+# Core data-science stack
+pandas>=1.5.0
+numpy>=1.23.0
+scipy>=1.9.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+plotly>=5.11.0
+
+# Jupyter
+notebook>=6.5.0
+jupyterlab>=3.5.0
+ipywidgets>=8.0.0
+
+# Twitter / social-media data access
+tweepy>=4.12.0
+
+# NLP / text analysis
+nltk>=3.7
+langdetect>=1.0.9
+
+# Excel / CSV I/O
+openpyxl>=3.0.10
+xlrd>=2.0.1
+
+# Statistical analysis
+statsmodels>=0.13.0
