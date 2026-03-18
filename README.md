@@ -12,6 +12,18 @@ This repository contains the datasets used for the analysis presented in the art
 
 ```
 Ukraine-Twitter/
+├── notebooks/
+│   ├── StorywranglerData - Fig.1 Over-Underexpression_Short_WITHINlanguage_SUM.ipynb
+│   ├── StorywranglerData - Fig.2 Over-Underexpression_Short_betweenlanguage_SUM.ipynb
+│   ├── StorywranglerData - Fig.3,4,S4_offset-onsets_2014_2022 comparison_Okt2024.ipynb
+│   ├── StorywranglerData - Fig.5a_Vectors_UMAPs.ipynb
+│   ├── StorywranglerData - Fig.5b_Vectors_matrix.ipynb
+│   ├── StorywranglerData - Fig.S1 Raw freq heatmap.ipynb
+│   ├── StorywranglerData - Fig.S2 Over-Underexpression_Short_WITHINlanguage_SUM_no smoothing.ipynb
+│   ├── StorywranglerData - Fig.S3 Over-Underexpression_Short_betweenlanguage_SUM_no smoothing.ipynb
+│   ├── StorywranglerData - Fig.S5_Dendrograms.ipynb
+│   ├── StorywranglerData - Fig.S6_2014_2022_4 manual clusters.ipynb
+│   └── StorywranglerData - Fig.S7_Comparing-word-forms_together.ipynb
 ├── data/
 │   ├── raw/            # Raw Twitter data (CSV / Excel), as collected
 │   └── processed/      # Cleaned and aggregated datasets ready for analysis
@@ -49,6 +61,10 @@ pip install -r requirements.txt
    pip install -r requirements.txt
    ```
 3. Place raw data files in `data/raw/` (see `data/raw/README.md`).
+4. Open notebooks from the `notebooks/` folder (e.g. with Jupyter Lab or Jupyter Notebook):
+   ```bash
+   jupyter lab notebooks/
+   ```
 
 ## Citation
 
