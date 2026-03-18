@@ -25,8 +25,12 @@ Ukraine-Twitter/
 │   ├── StorywranglerData - Fig.S6_2014_2022_4 manual clusters.ipynb
 │   └── StorywranglerData - Fig.S7_Comparing-word-forms_together.ipynb
 ├── data/
-│   ├── raw/            # Raw Twitter data (CSV / Excel), as collected
-│   └── processed/      # Cleaned and aggregated datasets ready for analysis
+│   ├── raw/
+│   │   ├── 28languagesUA.csv                    # Daily freq/rank per language, Ukraine (2008–2023)
+│   │   └── original_language_query_dict.json    # Language → search keyword mapping (28 languages)
+│   └── processed/
+│       ├── pivotUkraine_SUM_excelInput_weekly.csv  # Weekly freq sums pivoted by language
+│       └── All_cases_allmetadata.csv               # Per-form metadata for comparative analysis
 ├── results/
 │   ├── figures/        # Output figures (PNG, PDF)
 │   └── tables/         # Output tables (CSV, Excel)
@@ -36,10 +40,23 @@ Ukraine-Twitter/
 
 ## Data
 
-Data files are stored in `data/raw/` (original exports) and `data/processed/` (cleaned versions).  
-Formats: **CSV** and **Excel (.xlsx)**.
+All data is sourced from the [Storywrangler](https://storywrangler.org/) API, which tracks word frequencies across Twitter/X by language and day.
 
-> **Note:** Large raw data files may not be tracked by Git. See `data/raw/README.md` for instructions on obtaining the full dataset.
+### Raw data (`data/raw/`)
+
+| File | Description |
+|---|---|
+| `28languagesUA.csv` | Daily count, rank, and frequency statistics for Ukraine-related keywords across 28 languages (2008–2023). Columns: `date`, `count`, `count_no_rt`, `rank`, `rank_no_rt`, `freq`, `freq_no_rt`, `odds`, `odds_no_rt`, `language`, `country`. |
+| `original_language_query_dict.json` | JSON mapping of language name to the search keyword used for that language (e.g. `"English": "Ukraine"`, `"Arabic": "أوكرانيا"`). |
+
+### Processed data (`data/processed/`)
+
+| File | Description |
+|---|---|
+| `pivotUkraine_SUM_excelInput_weekly.csv` | Pivoted version of `28languagesUA.csv`. Rows = languages, columns = ISO week-start dates. Values are weekly sums of the `freq` column. |
+| `All_cases_allmetadata.csv` | Per-query-form dataset combining frequency data with full linguistic metadata (grammatical case, gender, plurality, demonym status, etc.) used to generate the comparative plot. |
+
+See `data/raw/README.md` and `data/processed/README.md` for detailed column descriptions.
 
 ## Requirements
 

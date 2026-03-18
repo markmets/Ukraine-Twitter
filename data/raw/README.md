@@ -1,34 +1,44 @@
 # Raw Data
 
-This directory holds the original, unmodified Twitter data exports.
+This directory holds the original, unmodified source data as collected from the Storywrangler API.
 
-## Expected Files
+## Files
 
 | File | Description |
 |---|---|
-| `ukraine_tweets_YYYY.csv` | Yearly tweet export (one file per year, 2008–2023) |
-| `ukraine_tweets_all.xlsx` | Combined dataset across all years |
+| `28languagesUA.csv` | Daily frequency and rank data per language for Ukraine-related terms (28 languages, 2008–2023) |
+| `original_language_query_dict.json` | Mapping of language names to the keyword used in the final query for each language |
 
 ## Data Format
 
-Each CSV / Excel file should contain at minimum the following columns:
+### `28languagesUA.csv`
+
+Each row corresponds to one language on one day. Columns:
 
 | Column | Type | Description |
 |---|---|---|
-| `id` | int64 | Unique tweet ID |
-| `created_at` | datetime | Tweet creation timestamp (UTC) |
-| `text` | str | Full tweet text |
-| `lang` | str | Detected language code (e.g. `en`, `uk`, `ru`) |
-| `retweet_count` | int | Number of retweets |
-| `favorite_count` | int | Number of likes |
-| `user_location` | str | User-provided location string |
-| `user_followers_count` | int | Follower count at time of tweet |
+| `date` | date | Day of observation (YYYY-MM-DD) |
+| `count` | int | Total tweet count (including retweets) |
+| `count_no_rt` | int | Tweet count excluding retweets |
+| `rank` | int | Daily rank of the term (including retweets) |
+| `rank_no_rt` | int | Daily rank excluding retweets |
+| `freq` | float | Relative frequency of the term (including retweets) |
+| `freq_no_rt` | float | Relative frequency excluding retweets |
+| `odds` | float | Odds of the term appearing (including retweets) |
+| `odds_no_rt` | float | Odds excluding retweets |
+| `language` | str | Language name (e.g. `Arabic`, `Ukrainian`) |
+| `country` | str | Country filter applied (`ukraine`) |
 
-## Obtaining the Data
+### `original_language_query_dict.json`
 
-The full dataset is not stored in this repository due to file-size limits and Twitter's
-Terms of Service. To reproduce the collection step:
+A JSON object mapping language name to the search keyword used, e.g.:
 
-1. Obtain Twitter API (v2) access credentials.
-2. Store your bearer token in `bearer_token.txt` (this file is git-ignored).
-3. Run `notebooks/01_data_collection.ipynb`.
+```json
+{
+  "English": "Ukraine",
+  "Ukrainian": "Україна",
+  "Arabic": "أوكرانيا"
+}
+```
+
+28 languages are included in total.
