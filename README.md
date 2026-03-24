@@ -38,7 +38,7 @@ All data is sourced from the [Storywrangler](https://storywrangler.org/) API, wh
 | File | Description |
 |---|---|
 | `28languagesUA.csv` | Daily count, rank, and frequency statistics for Ukraine-related keywords across 28 languages (2008–2023). Columns: `date`, `count`, `count_no_rt`, `rank`, `rank_no_rt`, `freq`, `freq_no_rt`, `odds`, `odds_no_rt`, `language`, `country`. |
-| `original_language_query_dict.json` | JSON mapping of language name to the search keyword used for that language (e.g. `"English": "Ukraine"`, `"Arabic": "أوكرانيا"`). |
+| `original_language_query_dict.json` | JSON mapping of language name to the search keyword used for that language (e.g. `"English": "Ukraine"`, `"Estonian": "Ukraina"`). |
 | `pivotUkraine_SUM_excelInput_weekly.csv` | Pivoted version of `28languagesUA.csv`. Rows = languages, columns = ISO week-start dates. Values are weekly sums of the `freq` column. |
 | `All_cases_allmetadata.csv` | Per-query-form dataset combining frequency data with full linguistic metadata (grammatical case, gender, plurality, demonym status, etc.) used to generate the comparative plot. |
 
