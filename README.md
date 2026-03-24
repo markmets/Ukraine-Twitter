@@ -1,15 +1,11 @@
 # Ukraine-Twitter
-
 Code and data repository for the academic article:
-
 **"Crisis-induced differences in attention towards Ukraine in Twitter 2008–2023"**
 
 ## Overview
-
-This repository contains the datasets used for the analysis presented in the article. The study examines how crisis events (e.g., the 2014 Euromaidan revolution, the 2022 full-scale invasion) drive shifts in the volume, sentiment, and geographic distribution of Twitter attention towards Ukraine over the period 2008–2023.
+This repository contains the datasets used for the analysis presented in the article. The study examines the change of attention towards Ukraine across languages 2008–2023.
 
 ## Repository Structure
-
 ```
 Ukraine-Twitter/
 ├── notebooks/
@@ -37,8 +33,7 @@ Ukraine-Twitter/
 ```
 
 ## Data
-
-All data is sourced from the [Storywrangler](https://storywrangler.org/) API, which tracks word frequencies across Twitter/X by language and day. All files are stored directly in `data/`.
+All data is sourced from the [Storywrangler](https://storywrangler.org/) API, which tracks word frequencies across Twitter/X by language and day. All files are stored in `data/`.
 
 | File | Description |
 |---|---|
@@ -49,37 +44,9 @@ All data is sourced from the [Storywrangler](https://storywrangler.org/) API, wh
 
 See `data/README.md` for detailed column descriptions.
 
-## Requirements
-
-Python 3.9+ is recommended. Install dependencies with:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/markmets/Ukraine-Twitter.git
-   cd Ukraine-Twitter
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Place data files in `data/` (see `data/README.md`).
-4. Open notebooks from the `notebooks/` folder (e.g. with Jupyter Lab or Jupyter Notebook):
-   ```bash
-   jupyter lab notebooks/
-   ```
-
 ## Citation
+If you use this code or data in your own work, please cite the arXiv preprint:
+[https://arxiv.org/abs/2603.17899
+](https://arxiv.org/abs/2603.17899)
 
-If you use this code or data in your own work, please cite:
 
-> Markmets (2023). *Crisis-induced differences in attention towards Ukraine in Twitter 2008–2023*. [Journal / Preprint details TBD]
-
-## License
-
-This repository is made available for academic and research purposes. See [LICENSE](LICENSE) for details.
