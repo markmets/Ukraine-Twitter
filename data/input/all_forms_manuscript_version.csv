@@ -1,0 +1,215 @@
+Query,ISO,Language,Type,Plurality,Gender,Case,Demonym,Attributes,Canonical
+Oekraïens,nl,Dutch,Adjective,Singular,Neuter,-,No,A-S-N,FALSE
+Oekraïense,nl,Dutch,Adjective,Singular,Common,-,No,A-S,FALSE
+Oekraïne,nl,Dutch,Noun,Singular,Feminine,-,No,N-S-F,TRUE
+Oekraïner,nl,Dutch,Noun,Singular,Common,-,Yes,N-S,FALSE
+Oekraïners,nl,Dutch,Noun,Plural,Common,-,Yes,N-P,FALSE
+Oekraïnes,nl,Dutch,Noun,Singular,Feminine,Genitive,No,N-S-F-Gen,FALSE
+Ucraina,it,Italian,Noun,Singular,Feminine,-,No,N-S-F,TRUE
+Ucraina,ro,Romanian,Noun,Singular,Feminine,"Nominative, Accusative",No,N-S-F-Acc/Nom,TRUE
+Ucrainei,ro,Romanian,Noun,Singular,Feminine,"Genitive, Dative",No,N-S-F-Dat/Gen,FALSE
+Ucrania,es,Spanish,Noun,Singular,Feminine,-,No,N-S-F,TRUE
+Ucraïna,ca,Catalan,Noun,Singular,Feminine,-,No,N-S-F,TRUE
+Ucrânia,pt,Portuguese,Noun,Singular,Feminine,-,No,N-S-F,TRUE
+Ukraina,et,Estonian,Noun,Singular,-,"Multiple Cases (Nominative, Genitive, etc.)",No,N-S---Gen,TRUE
+Ukraina,fi,Finnish,Noun,Singular,-,"Multiple Cases (Nominative, Genitive, etc.)",No,N-S---Gen,TRUE
+Ukraina,id,Indonesian,Noun,Singular,-,-,No,N-S,TRUE
+Ukraina,no,Norwegian,Noun,Singular,Feminine/Common,-,No,N-S,TRUE
+Ukraina,pl,Polish,Noun,Singular,Feminine,"All Cases (Nominative, Genitive, etc.)",No,N-S-F-Gen,TRUE
+Ukraina,sv,Swedish,Noun,Singular,Common,-,No,N-S,TRUE
+Ukraina,vi,Vietnamese,Noun,Singular,-,-,No,N-S,TRUE
+Ukrainaga,et,Estonian,Noun,Singular,-,Comitative,No,N-S,FALSE
+Ukrainale,et,Estonian,Noun,Singular,-,Allative,No,N-S,FALSE
+Ukrainas,et,Estonian,Noun,Singular,-,Inessive,No,N-S,FALSE
+Ukrainasse,et,Estonian,Noun,Singular,-,Illative,No,N-S,FALSE
+Ukrainast,et,Estonian,Noun,Singular,-,Elative,No,N-S,FALSE
+Ukrainat,et,Estonian,Noun,Singular,-,Partitive,No,N-S,FALSE
+Ukraine,da,Danish,Noun,Singular,Common,-,No,N-S,TRUE
+Ukraine,de,German,Noun,Singular,Feminine,"Nominative, Genitive, Dative, Accusative",No,N-S-F-Acc/Dat/Gen/Nom,TRUE
+Ukraine,en,English,Noun,Singular,-,-,No,N-S,TRUE
+Ukraine,fr,French,Noun,Singular,Feminine,-,No,N-S-F,TRUE
+Ukrainer,de,German,Noun,"Singular, Plural",Masculine,-,Yes,N-P/S-M,FALSE
+Ukrainerin,de,German,Noun,"Singular, Plural",Feminine,-,Yes,N-P/S-F,FALSE
+Ukrainian,en,English,"Noun, Adjective","Singular, Plural (Noun)",-,-,"Yes, No",A+N-S,FALSE
+Ukrainien,fr,French,"Noun, Adjective","Singular, Plural",Masculine,-,"Yes, No",A+N-P/S-M,FALSE
+Ukrainienne,fr,French,"Noun, Adjective","Singular, Plural",Feminine,-,"Yes, No",A+N-P/S-F,FALSE
+Ukrainka,pl,Polish,Noun,Singular,Feminine,Nominative,Yes,N-S-F-Nom,FALSE
+Ukrainki,pl,Polish,Noun,Plural,Feminine,Nominative,Yes,N-P-F-Nom,FALSE
+Ukraińcy,pl,Polish,Noun,Plural,Masculine Personal,Nominative,Yes,N-P---Nom,FALSE
+Ukraińczyk,pl,Polish,Noun,Singular,Masculine,Nominative,Yes,N-S-M-Nom,FALSE
+Ukrajina,cs,Czech,Noun,Singular,Feminine,"Nominative, Genitive, Dative, Accusative, Instrumental, Vocative",No,N-S-F-Acc/Dat/Gen/Ins/Nom/Voc,TRUE
+Ukrajinami,cs,Czech,Noun,Plural,Feminine,Instrumental,No,N-P-F-Ins,FALSE
+Ukrajince,cs,Czech,Noun,Singular,Masculine Animate,"Genitive, Accusative",Yes,N-S---Acc/Gen,FALSE
+Ukrajinců,cs,Czech,Noun,Plural,Masculine Animate,Genitive,Yes,N-P---Gen,FALSE
+Ukrajinec,cs,Czech,Noun,Singular,Masculine Animate,Nominative,Yes,N-S---Nom,FALSE
+Ukrajinka,cs,Czech,Noun,Singular,Feminine,Nominative,Yes,N-S-F-Nom,FALSE
+Ukrajinky,cs,Czech,Noun,Plural,Feminine,Nominative,Yes,N-P-F-Nom,FALSE
+Ukrajino,cs,Czech,Noun,Singular,Feminine,Vocative,No,N-S-F-Voc,FALSE
+Ukrajinou,cs,Czech,Noun,Singular,Feminine,Instrumental,No,N-S-F-Ins,FALSE
+Ukrajinu,cs,Czech,Noun,Singular,Feminine,Accusative,No,N-S-F-Acc,FALSE
+Ukrajiny,cs,Czech,Noun,"Singular, Plural",Feminine,Genitive,No,N-P/S-F-Gen,FALSE
+Ukrajině,cs,Czech,Noun,Singular,Feminine,Dative,No,N-S-F-Dat,FALSE
+Ukrajna,hu,Hungarian,Noun,Singular,-,"Multiple Cases (Nominative, Accusative, etc.)",No,N-S---Acc,TRUE
+Ukrayna,tr,Turkish,Noun,Singular,-,"Nominative, Accusative, Dative, etc.",No,N-S---Acc/Dat/Nom,TRUE
+Ukrayna'da,tr,Turkish,Noun,Singular,-,Locative,No,N-S---Loc,FALSE
+Ukrayna'dan,tr,Turkish,Noun,Singular,-,Ablative,No,N-S,FALSE
+Ukrayna'ya,tr,Turkish,Noun,Singular,-,Dative,No,N-S---Dat,FALSE
+Ukrayna'yı,tr,Turkish,Noun,Singular,-,Accusative,No,N-S---Acc,FALSE
+Ukraynaca,tr,Turkish,Noun,Singular,-,-,No,N-S,FALSE
+Ukraynalı,tr,Turkish,"Noun, Adjective","Singular, Plural",-,-,"Yes, No",A+N-P/S,FALSE
+Ukraynalılar,tr,Turkish,Noun,Plural,-,-,Yes,N-P,FALSE
+ucraina,it,Italian,"Noun, Adjective",Singular,Feminine,-,"Yes, No",A+N-S-F,FALSE
+ucraine,it,Italian,"Noun, Adjective",Plural,Feminine,-,"Yes, No",A+N-P-F,FALSE
+ucrainean,ro,Romanian,"Noun, Adjective",Singular,Masculine,-,"Yes, No",A+N-S-M,FALSE
+ucraineană,ro,Romanian,"Noun, Adjective",Singular,Feminine,-,"Yes, No",A+N-S-F,FALSE
+ucrainence,ro,Romanian,"Noun, Adjective",Plural,Feminine,-,"Yes, No",A+N-P-F,FALSE
+ucraineni,ro,Romanian,"Noun, Adjective",Plural,Masculine,-,"Yes, No",A+N-P-M,FALSE
+ucraini,it,Italian,"Noun, Adjective",Plural,Masculine,-,"Yes, No",A+N-P-M,FALSE
+ucraino,it,Italian,"Noun, Adjective",Singular,Masculine,-,"Yes, No",A+N-S-M,FALSE
+ucraiñenc,ca,Catalan,Noun,Singular,Masculine,-,Yes,N-S-M,FALSE
+ucraiñenca,ca,Catalan,Noun,Singular,Feminine,-,Yes,N-S-F,FALSE
+ucraiñences,ca,Catalan,Noun,Plural,Feminine,-,Yes,N-P-F,FALSE
+ucraiñencs,ca,Catalan,Noun,Plural,Masculine,-,Yes,N-P-M,FALSE
+ucraniana,es,Spanish,"Noun, Adjective","Singular, Plural",Feminine,-,"Yes, No",A+N-P/S-F,FALSE
+ucraniana,pt,Portuguese,"Noun, Adjective","Singular, Plural",Feminine,-,"Yes, No",A+N-P/S-F,FALSE
+ucraniano,es,Spanish,"Noun, Adjective","Singular, Plural",Masculine,-,"Yes, No",A+N-P/S-M,FALSE
+ucraniano,pt,Portuguese,"Noun, Adjective","Singular, Plural",Masculine,-,"Yes, No",A+N-P/S-M,FALSE
+ucraïnesa,ca,Catalan,"Noun, Adjective",Singular,Feminine,-,"Yes, No",A+N-S-F,FALSE
+ucraïneses,ca,Catalan,"Noun, Adjective",Plural,Feminine,-,"Yes, No",A+N-P-F,FALSE
+ucraïnesos,ca,Catalan,"Noun, Adjective",Plural,Masculine,-,"Yes, No",A+N-P-M,FALSE
+ucraïnès,ca,Catalan,"Noun, Adjective",Singular,Masculine,-,"Yes, No",A+N-S-M,FALSE
+ukraina,et,Estonian,"Noun, Adjective",Singular,-,-,No,A+N-S,FALSE
+ukrainalainen,fi,Finnish,"Noun, Adjective",Singular,-,-,"Yes, No",A+N-S,FALSE
+ukrainalaiset,fi,Finnish,"Noun, Adjective",Plural,-,-,"Yes, No",A+N-P,FALSE
+ukrainare,sv,Swedish,Noun,"Singular, Plural",Common,-,Yes,N-P/S,FALSE
+ukrainer,da,Danish,Noun,Singular,Common,-,Yes,N-S,FALSE
+ukrainer,no,Norwegian,Noun,Singular,Common,-,Yes,N-S,FALSE
+ukrainere,da,Danish,Noun,Plural,Common,-,Yes,N-P,FALSE
+ukrainere,no,Norwegian,Noun,Plural,Common,-,Yes,N-P,FALSE
+ukrainisch,de,German,Adjective,"Singular, Plural","Masculine, Feminine, Neuter",-,No,A-P/S,FALSE
+ukrainische,de,German,Adjective,"Singular, Plural",Feminine,-,No,A-P/S-F,FALSE
+ukrainischen,de,German,Adjective,Plural,-,-,No,A-P,FALSE
+ukrainischer,de,German,Adjective,Singular,Masculine,-,No,A-S-M,FALSE
+ukrainisches,de,German,Adjective,Singular,Neuter,-,No,A-S-N,FALSE
+ukrainlane,et,Estonian,Noun,Singular,-,-,Yes,N-S,FALSE
+ukrainlased,et,Estonian,Noun,Plural,-,-,Yes,N-P,FALSE
+ukrainsk,da,Danish,Adjective,"Singular, Plural",Common,-,No,A-P/S,FALSE
+ukrainsk,no,Norwegian,Adjective,"Singular, Plural",-,-,No,A-P/S,FALSE
+ukrainsk,sv,Swedish,Adjective,Singular,Common,-,No,A-S,FALSE
+ukrainska,sv,Swedish,Adjective,Plural,-,-,No,A-P,FALSE
+ukrainskt,sv,Swedish,Adjective,Singular,Neuter,-,No,A-S-N,FALSE
+ukraińscy,pl,Polish,Adjective,Plural,Masculine Personal,-,No,A-P,FALSE
+ukraińska,pl,Polish,Adjective,Singular,Feminine,-,No,A-S-F,FALSE
+ukraiński,pl,Polish,Adjective,Singular,Masculine,-,No,A-S-M,FALSE
+ukraińskich,pl,Polish,Adjective,Plural,-,Genitive,No,A-P---Gen,FALSE
+ukraińskie,pl,Polish,Adjective,"Singular, Plural","Neuter (Singular), Non-Masculine Personal (Plural)",-,No,A-P/S,FALSE
+ukrajinská,cs,Czech,Adjective,Singular,Feminine,-,No,A-S-F,FALSE
+ukrajinské,cs,Czech,Adjective,"Singular, Plural","Neuter (Singular), Feminine/Masculine Inanimate (Plural)",-,No,A-P/S,FALSE
+ukrajinský,cs,Czech,Adjective,Singular,Masculine,-,No,A-S-M,FALSE
+ukrajinští,cs,Czech,Adjective,Plural,Masculine Animate,-,No,A-P,FALSE
+ukrán,hu,Hungarian,"Noun, Adjective",Singular,-,-,"Yes, No",A+N-S,FALSE
+ukránok,hu,Hungarian,Noun,Plural,-,-,Yes,N-P,FALSE
+Ουκρανή,el,Greek,Noun,Singular,Feminine,Nominative,Yes,N-S-F-Nom,FALSE
+Ουκρανία,el,Greek,Noun,Singular,Feminine,Nominative,No,N-S-F-Nom,TRUE
+Ουκρανίαν,el,Greek,Noun,Singular,Feminine,Accusative,No,N-S-F-Acc,FALSE
+Ουκρανίας,el,Greek,Noun,Singular,Feminine,Genitive,No,N-S-F-Gen,FALSE
+Ουκρανίες,el,Greek,Noun,Plural,Feminine,Nominative,No,N-P-F-Nom,FALSE
+Ουκρανός,el,Greek,Noun,Singular,Masculine,Nominative,Yes,N-S-M-Nom,FALSE
+Ουκρανών,el,Greek,Noun,Plural,-,Genitive,No,N-P---Gen,FALSE
+ουκρανικά,el,Greek,Adjective,Plural,Neuter,-,No,A-P-N,FALSE
+ουκρανικές,el,Greek,Adjective,Plural,Feminine,-,No,A-P-F,FALSE
+ουκρανική,el,Greek,Adjective,Singular,Feminine,-,No,A-S-F,FALSE
+ουκρανικοί,el,Greek,Adjective,Plural,Masculine,-,No,A-P-M,FALSE
+ουκρανικό,el,Greek,Adjective,Singular,Neuter,-,No,A-S-N,FALSE
+ουκρανικός,el,Greek,Adjective,Singular,Masculine,-,No,A-S-M,FALSE
+Украина,ru,Russian,Noun,Singular,Feminine,"All Cases (Nominative, Genitive, etc.)",No,N-S-F-Gen,TRUE
+Україна,uk,Ukrainian,Noun,Singular,Feminine,"All Cases (Nominative, Genitive, etc.)",No,N-S-F-Gen,TRUE
+Украјина,sr,Serbian,Noun,Singular,Feminine,"All Cases (Nominative, Genitive, etc.)",No,N-S-F-Gen,TRUE
+Украјинац,sr,Serbian,Noun,Singular,Masculine,Nominative,Yes,N-S-M-Nom,FALSE
+Украјинка,sr,Serbian,Noun,Singular,Feminine,Nominative,Yes,N-S-F-Nom,FALSE
+Украјинки,sr,Serbian,Noun,Plural,Feminine,Nominative,Yes,N-P-F-Nom,FALSE
+Украјинци,sr,Serbian,Noun,Plural,Masculine,Nominative,Yes,N-P-M-Nom,FALSE
+украинец,ru,Russian,Noun,Singular,Masculine,Nominative,Yes,N-S-M-Nom,FALSE
+украинка,ru,Russian,Noun,Singular,Feminine,Nominative,Yes,N-S-F-Nom,FALSE
+украинская,ru,Russian,Adjective,Singular,Feminine,-,No,A-S-F,FALSE
+украинские,ru,Russian,Adjective,Plural,-,-,No,A-P,FALSE
+украинский,ru,Russian,Adjective,Singular,Masculine,-,No,A-S-M,FALSE
+украинское,ru,Russian,Adjective,Singular,Neuter,-,No,A-S-N,FALSE
+украинцев,ru,Russian,Noun,Plural,Masculine,Genitive,Yes,N-P-M-Gen,FALSE
+украинцы,ru,Russian,Noun,Plural,Masculine,Nominative,Yes,N-P-M-Nom,FALSE
+українець,uk,Ukrainian,Noun,Singular,Masculine,Nominative,Yes,N-S-M-Nom,FALSE
+українка,uk,Ukrainian,Noun,Singular,Feminine,Nominative,Yes,N-S-F-Nom,FALSE
+українська,uk,Ukrainian,Adjective,Singular,Feminine,-,No,A-S-F,FALSE
+українське,uk,Ukrainian,Adjective,Singular,Neuter,-,No,A-S-N,FALSE
+український,uk,Ukrainian,Adjective,Singular,Masculine,-,No,A-S-M,FALSE
+українських,uk,Ukrainian,Adjective,Plural,-,Genitive,No,A-P---Gen,FALSE
+українські,uk,Ukrainian,Adjective,Plural,-,-,No,A-P,FALSE
+українці,uk,Ukrainian,Noun,Plural,Masculine,Nominative,Yes,N-P-M-Nom,FALSE
+українців,uk,Ukrainian,Noun,Plural,Masculine,Genitive,Yes,N-P-M-Gen,FALSE
+украјинска,sr,Serbian,Adjective,Singular,Feminine,-,No,A-S-F,FALSE
+украјински,sr,Serbian,Adjective,Singular,Masculine,-,No,A-S-M,FALSE
+украјинских,sr,Serbian,Adjective,Plural,-,Genitive,No,A-P---Gen,FALSE
+украјинско,sr,Serbian,Adjective,Singular,Neuter,-,No,A-S-N,FALSE
+أوكراني,ar,Arabic,"Noun, Adjective",Singular,Masculine,-,"Yes, No",A+N-S-M,FALSE
+أوكرانيا,ar,Arabic,Noun,Singular,Feminine,"Nominative, Accusative, Genitive",No,N-S-F-Acc/Gen/Nom,TRUE
+أوكرانيات,ar,Arabic,Noun,Plural,Feminine,-,Yes,N-P-F,FALSE
+أوكرانية,ar,Arabic,"Noun, Adjective",Singular,Feminine,-,"Yes, No",A+N-S-F,FALSE
+أوكرانيون,ar,Arabic,Noun,Plural,Masculine,Nominative,Yes,N-P-M-Nom,FALSE
+أوكرانيين,ar,Arabic,Noun,Plural,Masculine,"Accusative, Genitive",Yes,N-P-M-Acc/Gen,FALSE
+الأوكراني,ar,Arabic,Noun,Singular,Masculine,Definite,Yes,N-S-M-Def,FALSE
+الأوكرانية,ar,Arabic,Noun,Singular,Feminine,Definite,Yes,N-S-F-Def,FALSE
+اوکراین,fa,Persian,Noun,Singular,-,-,No,N-S,TRUE
+اوکراینی,fa,Persian,"Noun, Adjective","Singular, Plural",-,-,"Yes, No",A+N-P/S,FALSE
+یوکرین,ur,Urdu,Noun,Singular,-,-,No,N-S,TRUE
+یوکرینی,ur,Urdu,"Noun, Adjective","Singular, Plural",-,-,"Yes, No",A+N-P/S,FALSE
+یوکرینیوں,ur,Urdu,Noun,Plural,-,-,Yes,N-P,FALSE
+우크라이나,ko,Korean,Noun,Singular,-,-,No,N-S,TRUE
+우크라이나로,ko,Korean,Noun,Singular,-,Instrumental,No,N-S---Ins,FALSE
+우크라이나를,ko,Korean,Noun,Singular,-,Accusative,No,N-S---Acc,FALSE
+우크라이나에,ko,Korean,Noun,Singular,-,Dative,No,N-S---Dat,FALSE
+우크라이나에서,ko,Korean,Noun,Singular,-,Locative,No,N-S---Loc,FALSE
+우크라이나의,ko,Korean,Adjective,Singular,-,Possessive,No,A-S,FALSE
+우크라이나인,ko,Korean,Noun,Singular,-,-,Yes,N-S,FALSE
+Ucraini,it,Italian,"Noun, (lowercase Adjective)",Plural,Masculine,-,Yes,A+N-P-M,FALSE
+Ucraino,it,Italian,"Noun, (lowercase Adjective)","Singular, Plural",Masculine,-,No,A-S/P-M,FALSE
+Ukrainaan,fi,Finnish,Noun,Singular,-,Illative,No,N-S-Illat,FALSE
+Ukrainan,fi,Finnish,Noun,Singular,-,Genitive,No,N-S-Gen,FALSE
+Ukrainassa,fi,Finnish,Noun,Singular,-,Inessive,No,N-S-Iness,FALSE
+Ukrainasta,fi,Finnish,Noun,Singular,-,Elative,No,N-S-Elat,FALSE
+Ukrainerinnen,de,German,Noun,Plural,Feminine,"Nominative, Accusative, Dative, Genitive",Yes,N-P-F-Nom/Acc/Dat/Gen,FALSE
+Ukrainers,de,German,Noun,Singular,Masculine,Genitive (Possessive),Yes,N-S-M-Gen,FALSE
+Ukrainertum,de,German,Noun,Singular,Neuter,-,Yes,N-S-N,FALSE
+Ukraines,da,Danish,Noun,Singular,Common,Possessive,No,N-S-Poss,FALSE
+Ukrainian's,en,English,Noun,Singular,Common,Possessive,Yes,N-S-Poss,FALSE
+Ukrainiennes,fr,French,"Noun, Adjective",Plural,Feminine,-,Yes,A+N-P-F,FALSE
+Ukrainiens,fr,French,"Noun, Adjective",Plural,Masculine,-,Yes,A+N-P-M,FALSE
+Ukrainisme,fr,French,Noun,Singular,Masculine,-,No,N-S-M,FALSE
+Ukrainismes,fr,French,Noun,Plural,Masculine,-,No,N-P-M,FALSE
+Ukrainske,da,Danish,Adjective,Plural,Common,-,No,A-P,FALSE
+d'Ukraine,fr,French,Prepositional Phrase,Singular,Feminine,-,No,N-S-F-Phrase,FALSE
+do ucraniano,pt,Portuguese,Noun,Singular,Masculine,Genitive (Possessive),Yes,N-S-M-Gen,FALSE
+ucrainencele,ro,Romanian,Noun,Plural,Feminine,Definite,Yes,N-P-F-Def,FALSE
+ucrainenii,ro,Romanian,Noun,Plural,Masculine,Definite,Yes,N-P-M-Def,FALSE
+ucranianas,es,Spanish,"Noun, Adjective",Plural,Feminine,-,Yes,A+N-P-F,FALSE
+ucranianas,pt,Portuguese,"Noun, Adjective",Plural,Feminine,-,Yes,A+N-P-F,FALSE
+ucranianidad,es,Spanish,Noun,Singular,Feminine,-,No,N-S-F,FALSE
+ucranianidade,pt,Portuguese,Noun,Singular,Feminine,-,No,N-S-F,FALSE
+ucranianos,es,Spanish,"Noun, Adjective",Plural,Masculine,-,Yes,A+N-P-M,FALSE
+ucranianos,pt,Portuguese,"Noun, Adjective",Plural,Masculine,-,Yes,A+N-P-M,FALSE
+ucranio,es,Spanish,"Noun, Adjective",Singular,Masculine,-,Yes,A+N-S-M,FALSE
+ukrainalaisuudessa,fi,Finnish,Noun,Singular,-,Inessive,Yes,N-S-Iness,FALSE
+ukrainalaisuus,fi,Finnish,Noun,Singular,-,-,Yes,N-S,FALSE
+ukrainarna,sv,Swedish,Noun,Plural,Common,Definite,Yes,N-P-Def,FALSE
+ukrainarnas,sv,Swedish,Noun,Plural,Common,Possessive,Yes,N-P-Poss,FALSE
+ukraineren,no,Norwegian,Noun,Singular,Common,Definite,Yes,N-S-Def,FALSE
+ukrainernes,no,Norwegian,Noun,Plural,Common,Possessive,Yes,N-P-Poss,FALSE
+ukrainskan,sv,Swedish,Noun,Singular,Common,Definite,No,N-S-Def,FALSE
+ukrainske,no,Norwegian,Adjective,Plural,-,-,No,A-P,FALSE
+ukrainskhet,no,Norwegian,Noun,Singular,-,-,No,N-S,FALSE
+ukrainskhet,sv,Swedish,Noun,Singular,Common,-,No,N-S,FALSE
+ukránból,hu,Hungarian,Noun,Singular,-,Elative,No,N-S-Elat,FALSE
+ukránhoz,hu,Hungarian,Noun,Singular,-,Allative,No,N-S-Allat,FALSE
+ukránokat,hu,Hungarian,Noun,Plural,-,Accusative,Yes,N-P-Acc,FALSE
+ukránoknak,hu,Hungarian,Noun,Plural,-,Dative,Yes,N-P-Dat,FALSE
+ukránokért,hu,Hungarian,Noun,Plural,-,Causal-Final,Yes,N-P-CausFinal,FALSE
+اوکراینیان,fa,Persian,Noun,Plural,-,-,Yes,N-P,FALSE
