@@ -6,7 +6,7 @@ requests>=2.28
 
 # Storywrangler (install from GitHub if pip version is outdated)
 # pip install git+https://github.com/compstorylab/storywrangling
-storywrangling
+git+https://github.com/compstorylab/storywrangling.git
 
 # Visualisation
 plotly>=5.0
