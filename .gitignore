@@ -1,0 +1,11 @@
+# Generated data (recreate with 01_api_query and 02_combine_data)
+data/raw/
+data/processed/
+data/final/
+
+# Generated figures
+outputs/
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
