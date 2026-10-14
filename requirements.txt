@@ -1,24 +1,29 @@
-# Core
-pandas>=1.5
-numpy>=1.23
-openpyxl>=3.1          # Excel read/write
-requests>=2.28
+# RenkuLab / workshop environment (renkulab branch).
+# Versions are pinned to the setup the paper figures were made with.
+# Do not loosen kaleido/plotly: kaleido >= 1.0 needs Chrome (not available
+# on RenkuLab) and cannot write EPS.
 
-# Storywrangler (install from GitHub if pip version is outdated)
-# pip install git+https://github.com/compstorylab/storywrangling
-git+https://github.com/compstorylab/storywrangling.git
+# Core
+pandas==2.2.3
+numpy==2.1.0
+openpyxl==3.1.5        # Excel read/write
+requests==2.32.4       # Storywrangler API (01_api_query notebooks)
 
 # Visualisation
-plotly>=5.0
-kaleido>=0.2           # for saving static Plotly figures (PNG/PDF)
+plotly==5.24.1
+kaleido==0.2.1         # static Plotly export (PNG/PDF/SVG/EPS), bundles its own Chromium
+matplotlib==3.10.0
 
-# NLP / analysis
-shifterator
-scikit-learn>=1.2      # for UMAP preprocessing / clustering
-umap-learn             # for Fig.5a UMAPs
-dtaidistance>=2.3      # DTW distance matrix for Fig.3/Fig.S4 clustering
+# Analysis
+scipy==1.15.1
+scikit-learn==1.6.1    # clustering, UMAP preprocessing
+umap-learn==0.5.9.post2  # Fig.5a UMAPs
+numba==0.61.0          # used by umap-learn
+dtaidistance==2.4.0    # DTW distance matrix for Fig.3/Fig.S4 clustering
 
 # Notebook utilities
-tqdm
-jupyterlab
-ipywidgets             # for tqdm.notebook progress bars
+tqdm==4.67.1
+ipykernel==6.29.5
+ipywidgets==8.1.5      # tqdm.notebook progress bars
+nbformat==5.10.4       # Plotly inline rendering
+jupyterlab==4.3.3

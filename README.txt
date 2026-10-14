@@ -4,6 +4,18 @@ Fetches language data about "Ukraine" from the [Storywrangler API](https://story
 
 
 
+### RenkuLab / workshop version (this `renkulab` branch)
+
+This branch is the RenkuLab copy of the code (https://renkulab.io/p/mark.mets/ukraine-twitter). The `main` branch is the version linked to the article.
+
+Differences from `main`:
+- The processed data the figure notebooks read is already included in `data/processed/` (generated 14 Oct 2026), so the API download is not needed. Start with any figure notebook.
+- `requirements.txt` pins the package versions the paper figures were made with.
+
+Steps 1 and 2 below still work if you want to see how the data was made. Running the full `01_api_query.ipynb` takes about 20–30 minutes. Note that running `02_combine_data.ipynb` overwrites the included files in `data/processed/` with whatever API data you downloaded.
+
+
+
 ### Pipeline execution order
 
 1. `01_api_query.ipynb` — Fetch from Storywrangler API

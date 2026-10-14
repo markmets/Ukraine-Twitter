@@ -1,6 +1,12 @@
 # Generated data (recreate with 01_api_query and 02_combine_data)
 data/raw/
-data/processed/
+data/processed/*
+# renkulab branch: ship the processed files the figure notebooks read, so
+# workshop sessions can skip the API download (01) and combine (02) steps
+!data/processed/chosen_words_weekly_pivoted.csv
+!data/processed/chosen_words_daily.csv
+!data/processed/all_words_weekly.csv
+!data/processed/query_metadata.csv
 data/final/
 
 # Generated figures
